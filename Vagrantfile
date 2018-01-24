@@ -1,7 +1,7 @@
 $workstation_script = <<SCRIPT
 wget https://packages.chef.io/files/stable/chefdk/2.4.17/ubuntu/14.04/chefdk_2.4.17-1_amd64.deb
 sudo dpkg -i chefdk_2.4.17-1_amd64.deb
-mkdir ~/learn-chef
+mkdir /home/vagrant/learn-chef
 sudo apt-get update
 sudo apt-get install -y git
 SCRIPT
